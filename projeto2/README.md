@@ -23,7 +23,7 @@
       {
         "cnpj": "05.805.924/0001-89",
         "nome": "MINISTÉRIO PÚBLICO ESTADUAL ",
-        "polo": "Ativo",
+        "polo": "ATIVO",
         "tipo": "AUTOR"
       },
       {
@@ -104,243 +104,243 @@
     "tribunal": "TJ-PI",
     "movimentos": [
       {
-        "data": "19/11/2020 10:25:59 ",
+        "data": "2020-01-019T00:00:00",
         "indice": 30,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Juntada de Petição de manifestação"
+          " JUNTADA DE PETIÇÃO DE MANIFESTAÇÃO"
         ]
       },
       {
-        "data": "19/11/2020 10:25:59 ",
+        "data": "2020-01-019T00:00:00",
         "indice": 29,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Juntada de Petição de manifestação"
+          " JUNTADA DE PETIÇÃO DE MANIFESTAÇÃO"
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 28,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 27,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 26,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 21/10/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 21/10/2020 23:59:59."
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 25,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 21/10/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 21/10/2020 23:59:59."
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 24,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 21/10/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 21/10/2020 23:59:59."
         ]
       },
       {
-        "data": "15/11/2020 03:50:40 ",
+        "data": "2020-01-015T00:00:00",
         "indice": 23,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 21/10/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 21/10/2020 23:59:59."
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 22,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 21,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 20,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 21/09/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 21/09/2020 23:59:59."
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 19,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 21/09/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 21/09/2020 23:59:59."
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 18,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 21/09/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 21/09/2020 23:59:59."
         ]
       },
       {
-        "data": "13/11/2020 01:34:53 ",
+        "data": "2020-01-013T00:00:00",
         "indice": 17,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 21/09/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 21/09/2020 23:59:59."
         ]
       },
       {
-        "data": "09/11/2020 00:19:25 ",
+        "data": "2020-01-009T00:00:00",
         "indice": 16,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de LUCIVALDO DE SOUSA MONTEIRO em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE LUCIVALDO DE SOUSA MONTEIRO EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "09/11/2020 00:19:25 ",
+        "data": "2020-01-009T00:00:00",
         "indice": 15,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de LUCIVALDO DE SOUSA MONTEIRO em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE LUCIVALDO DE SOUSA MONTEIRO EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "08/11/2020 05:48:26 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 14,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "08/11/2020 05:48:26 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 13,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS ME  "
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS ME  "
         ]
       },
       {
-        "data": "08/11/2020 05:48:26 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 12,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "08/11/2020 05:48:26 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 11,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de GETULIO GOMES MACIEL em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE GETULIO GOMES MACIEL EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "08/11/2020 05:48:20 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 10,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "08/11/2020 05:48:20 ",
+        "data": "2020-01-008T00:00:00",
         "indice": 9,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Decorrido prazo de ALCENOR LOPES MARTINS em 19/08/2020 23:59:59."
+          " DECORRIDO PRAZO DE ALCENOR LOPES MARTINS EM 19/08/2020 23:59:59."
         ]
       },
       {
-        "data": "03/11/2020 23:05:20 ",
+        "data": "2020-01-003T00:00:00",
         "indice": 8,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Expedição de Outros documentos."
+          " EXPEDIÇÃO DE OUTROS DOCUMENTOS."
         ]
       },
       {
-        "data": "03/11/2020 23:05:20 ",
+        "data": "2020-01-003T00:00:00",
         "indice": 7,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Expedição de Outros documentos."
+          " EXPEDIÇÃO DE OUTROS DOCUMENTOS."
         ]
       },
       {
-        "data": "21/10/2020 12:51:29 ",
+        "data": "2020-01-021T00:00:00",
         "indice": 6,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Audiência Instrução realizada para 21/10/2020 11:00 Vara Cível da Comarca de Valença do Piauí."
+          " AUDIÊNCIA INSTRUÇÃO REALIZADA PARA 21/10/2020 11:00 VARA CÍVEL DA COMARCA DE VALENÇA DO PIAUÍ."
         ]
       },
       {
-        "data": "21/10/2020 12:51:29 ",
+        "data": "2020-01-021T00:00:00",
         "indice": 5,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Audiência Instrução realizada para 21/10/2020 11:00 Vara Cível da Comarca de Valença do Piauí."
+          " AUDIÊNCIA INSTRUÇÃO REALIZADA PARA 21/10/2020 11:00 VARA CÍVEL DA COMARCA DE VALENÇA DO PIAUÍ."
         ]
       },
       {
-        "data": "02/10/2020 11:15:44 ",
+        "data": "2020-01-002T00:00:00",
         "indice": 4,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Juntada de Petição de manifestação"
+          " JUNTADA DE PETIÇÃO DE MANIFESTAÇÃO"
         ]
       },
       {
-        "data": "02/10/2020 11:15:44 ",
+        "data": "2020-01-002T00:00:00",
         "indice": 3,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Juntada de Petição de manifestação"
+          " JUNTADA DE PETIÇÃO DE MANIFESTAÇÃO"
         ]
       },
       {
-        "data": "02/10/2020 09:56:15 ",
+        "data": "2020-01-002T00:00:00",
         "indice": 2,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Audiência Instrução redesignada para 21/10/2020 11:00 Vara Cível da Comarca de Valença do Piauí."
+          " AUDIÊNCIA INSTRUÇÃO REDESIGNADA PARA 21/10/2020 11:00 VARA CÍVEL DA COMARCA DE VALENÇA DO PIAUÍ."
         ]
       },
       {
-        "data": "02/10/2020 09:56:15 ",
+        "data": "2020-01-002T00:00:00",
         "indice": 1,
         "eMovimento": "true",
         "nomeOriginal": [
-          " Audiência Instrução redesignada para 21/10/2020 11:00 Vara Cível da Comarca de Valença do Piauí."
+          " AUDIÊNCIA INSTRUÇÃO REDESIGNADA PARA 21/10/2020 11:00 VARA CÍVEL DA COMARCA DE VALENÇA DO PIAUÍ."
         ]
       }
     ],
@@ -350,17 +350,18 @@
         "codigoCNJ": "9985"
       }
     ],
-    "urlProcesso": "https://tjpi.pje.jus.br/1g/ConsultaPublica/DetalheProcessoConsultaPublica/listView.seam?ca=54e9eb2ffeb3f2d804ffff5785fd8ddb1ea7a8292a12b8d5",
+    "urlProcesso": "https://tjpi.pje.jus.br/1g/ConsultaPublica/DetalheProcessoConsultaPublica/listView.seam?ca=d14c9df5acdd634c44cc590d639a7b231ea7a8292a12b8d5",
     "grauProcesso": "1",
-    "orgaoJulgador": "1ª Vara da Comarca de Valença do Piauí",
-    "unidadeOrigem": "Comarca de Valença do Piauí",
+    "orgaoJulgador": "1ª VARA DA COMARCA DE VALENÇA DO PIAUÍ",
+    "unidadeOrigem": "COMARCA DE VALENÇA DO PIAUÍ",
     "classeProcedual": [
       {
         "nome": "AÇÃO CIVIL DE IMPROBIDADE ADMINISTRATIVA ",
         "codigoCNJ": "64"
       }
     ],
-    "dataDistribuicao": "05/02/2020",
+    "dataDistribuicao": "2020-01-005T00:00:00",
+    "eProcessoDigital": "true",
     "numeroProcessoUnico": "0000989-95.2017.8.18.0078"
   }
 ]

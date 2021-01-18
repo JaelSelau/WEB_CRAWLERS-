@@ -1,20 +1,40 @@
 import scrapy 
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 class tjpi_spider(scrapy.Spider):
 
     name= 'tjpi'
-    allowed_domains = 'https://tjpi.pje.jus.br/1g/ConsultaPublica/DetalheProcessoConsultaPublica/listView.seam'
+    allowed_domains = 'tjpi.pje.jus.br'
     
     
     def start_requests(self):
-        start_url = 'https://tjpi.pje.jus.br/1g/ConsultaPublica/DetalheProcessoConsultaPublica/listView.seam?ca=54e9eb2ffeb3f2d804ffff5785fd8ddb1ea7a8292a12b8d5'                                                                                                                                                                            
-        yield scrapy.Request(start_url,callback=self.parse)
+        start_url = 'https://tjpi.pje.jus.br/1g/ConsultaPublica/listView.seam'                                                                                                                                                                            
+        yield scrapy.Request(url=start_url,callback=self.find_page, dont_filter= True)
 
-    
+    def find_page(self,response):
+        try:
+            response = response.url.replace('listView.seam', 'DetalheProcessoConsultaPublica/listView.seam?ca=d14c9df5acdd634c44cc590d639a7b231ea7a8292a12b8d5')
+        except:
+            print("Url is none!")
+        http = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Connection": "keep-alive",
+            "Host": "tjpi.pje.jus.br",
+            "Referer": "https://tjpi.pje.jus.br/1g/ConsultaPublica/listView.seam",
+            "Upgrade-Insecure-Requests": 1,
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36"
+        }
+
+        yield scrapy.Request(url=response,callback=self.parse,dont_filter= True,headers=http)
     def parse(self,response):
-        soup = BeautifulSoup(response.text,"html.parser")
-        
+        try:
+            soup = BeautifulSoup(response.text,"html.parser")
+        except:
+            print("Erro no parser dos dados!")
+
         partes = []
 
         cnpj = soup.find("span",id="j_id140:processoPartesPoloAtivoResumidoList:0:j_id287").find("div").text.strip().split(":")[1].split(" ")[1]
@@ -24,7 +44,7 @@ class tjpi_spider(scrapy.Spider):
         partes.append({
             "cnpj": cnpj,
             "nome": nome,
-            "polo": polo,
+            "polo": polo.upper(),
             "tipo": tipo
 
         })
@@ -68,12 +88,13 @@ class tjpi_spider(scrapy.Spider):
         for mov in movimentacao:
 
             data = mov.find("span").text.split("-")[0]
+            date = datetime.strptime(data, '%j/%m/%Y %H:%M:%S ').date().strftime('%Y-%m-%jT%H:%M:%S')
             nomeOriginal = mov.find("span").text.split("-")[1]
             movimentos.append({
-                "data": data,
+                "data": date,
                 "indice": indice,
                 "eMovimento": "true",
-                "nomeOriginal":[    nomeOriginal    ]
+                "nomeOriginal":[    nomeOriginal.upper()    ]
 
             })
             indice -=1
@@ -100,10 +121,10 @@ class tjpi_spider(scrapy.Spider):
 
         })
 
-        dataDistribuicao = soup.find("span",id="j_id140:processoTrfViewView:j_id158").find_all("div")[2].text.strip()
-
+        buscaData = soup.find("span",id="j_id140:processoTrfViewView:j_id158").find_all("div")[2].text.strip()
+        dataDistribuicao = datetime.strptime(buscaData, '%j/%m/%Y').date().strftime('%Y-%m-%jT%H:%M:%S')
+        
         numeroProcessoUnico = soup.find("div",class_="value col-sm-12").text.strip()
-
         yield{
             "uf": "PI",
             "partes:": partes,
@@ -114,10 +135,11 @@ class tjpi_spider(scrapy.Spider):
             "assuntosCNJ": assuntosCNJ,
             "urlProcesso": response.url,
             "grauProcesso": "1",
-            "orgaoJulgador": orgaoJulgador,
-            "unidadeOrigem": unidadeOrigem,
+            "orgaoJulgador": orgaoJulgador.upper(),
+            "unidadeOrigem": unidadeOrigem.upper(),
             "classeProcedual": classeProcedual,
             "dataDistribuicao": dataDistribuicao,
+            "eProcessoDigital": "true",
             "numeroProcessoUnico": numeroProcessoUnico
         }
     
